@@ -50,7 +50,6 @@ console.log(name + " your age is: " + age);
 // Let: we cannot redeclare the let variable (Block Scoped)
 
 let num = 12;
-
 let prefix = "ayu";
 
 num = 13;
@@ -63,3 +62,11 @@ const d = 5;
 let e = "ayu";
 
 console.log(d + " " + e);
+
+// Print Table:
+
+let account_email = "ayushsharma.octt@gmail.com";
+var accout_name = "Ayush Sharma";
+const account_password = "PK458@#kd";
+
+console.table([account_email, account_password, accout_name]);
